@@ -39,7 +39,7 @@ DB_URI = environ.get("DB_URI", "mongodb+srv://xdmama:xv628MKL9nHdoNzW@avengers.e
 DB_NAME = environ.get("DB_NAME", "techvjbotz")
 
 # Auto Delete Information
-AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', false)) # Set True or False
+AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', False)) # Set True or False
 
 # If Auto Delete Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
@@ -70,7 +70,7 @@ WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or Fal
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://pruebaloca12.blogspot.com/2024/08/papu.html") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', false)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
