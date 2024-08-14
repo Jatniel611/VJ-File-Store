@@ -73,13 +73,13 @@ WEBSITE_URL = environ.get("WEBSITE_URL", "https://pruebaloca12.blogspot.com/2024
 STREAM_MODE = bool(environ.get('STREAM_MODE', false)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-MULTI_CLIENT = false
+MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
-    ON_HEROKU = false
+    ON_HEROKU = True
 else:
-    ON_HEROKU = true
+    ON_HEROKU = True
 URL = environ.get("URL", "https://pruebaloca12.blogspot.com/2024/08/papu.html")
 
 
