@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "28786658"))
 API_HASH = environ.get("API_HASH", "1eab348fec1e052171bd864a385dc998")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7331546556:AAHS8Q4bUlskAjWGxqxBKvSzRMeoYI7SODc")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://i.ibb.co/FLS35pG4/5b9579ac-3f97-48cc-b295-2941de064e8b-1-1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '801457211').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "cargahdbot") # without @
 PORT = environ.get("PORT", "8080")
@@ -86,4 +86,3 @@ URL = environ.get("URL", "https://pruebaloca12.blogspot.com/2024/08/papu.html")
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
-    
